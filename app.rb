@@ -15,12 +15,13 @@ module Name
     end
 
     #database
-    set :database, "sqlite3:///database.db"
+    # set :database, "sqlite3:///database.db"
 
     #filters
 
     #routes
     get '/' do
+      @city = City.new
       erb :index
     end
 
