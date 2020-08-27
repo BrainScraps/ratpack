@@ -1,26 +1,27 @@
-<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <h3 class="masthead-brand">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
+<div class="full-background <%= @city_css_class %>">
+  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+      <div class="inner">
+        <h3 class="masthead-brand">Cover</h3>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-  <main role="main" class="inner cover">
-    <h1 class="cover-heading"> <%= "#{@city.name }, #{@city.state}" %> </h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-    </p>
-  </main>
+    <main role="main" class="inner cover">
+      <h1 class="cover-heading cityname-headline"> <%= "What if every single person in #{@city.name }, #{@city.state} died?" %> </h1>
+      <br />
+      <h3 class="cityname-headline">COVID19 has killed <%= separate_comma(@current_covid_deaths) %> people in the U.S. </h2>
+      <h3 class="cityname-headline"> The population of <%= @city.name %> is <%= separate_comma(@city.population) %> </h2>
+    </main>
 
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    </div>
-  </footer>
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+        <p>Built with contempt by @brainscraps</p>
+      </div>
+    </footer>
+  </div>
 </div>

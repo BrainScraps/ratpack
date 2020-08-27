@@ -42,8 +42,16 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
+.full-background {
+  width: 100%;
+}
+
+.salem-oregon {
+  background: url('../img/salem_oregon.jpg') no-repeat scroll 0px 100% / cover transparent;
+}
+
 .cover-container {
-  max-width: 42em;
+  max-width: 66em;
 }
 
 
@@ -107,4 +115,9 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+.cityname-headline {
+  color: white;
+  text-shadow: 0.2rem 0.2rem 0.2rem black;
 }
