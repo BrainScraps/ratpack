@@ -102,6 +102,18 @@ body {
   background: url('../img/syracuse_new_york.jpg') no-repeat scroll 0px 100% / cover transparent;
 }
 
+.chattanooga-tennessee {
+  background: url('../img/chattanooga_tennessee.jpg') no-repeat scroll 0px 100% / cover transparent;
+}
+
+.worcester-massachutsets {
+  background: url('../img/worcester_massachutsets.jpg') no-repeat scroll 0px 100% / cover transparent;
+}
+
+.sioux-falls-south-dakota {
+  background: url('../img/sioux_falls_south_dakota.jpg') no-repeat scroll 0px 100% / cover transparent;
+}
+
 
 .cover-container {
   max-width: 66em;
