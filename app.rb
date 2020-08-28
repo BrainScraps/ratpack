@@ -21,8 +21,9 @@ module Name
 
     #routes
     get '/' do
-      @current_covid_deaths = 183700
+      @current_covid_deaths = current_covid_deaths
       @city = City.new(@current_covid_deaths)
+      @matrix = comparison_matrix(current_covid_deaths_per_m)
       @city_css_class = [@city.name, ' ', @city.state].join.gsub(' ', '-').downcase
       erb :index
     end
@@ -35,6 +36,33 @@ module Name
 
       def separate_comma(number)
         number.to_s.chars.to_a.reverse.each_slice(3).map(&:join).join(",").reverse
+      end
+
+      def current_covid_deaths
+        183700
+      end
+
+      def current_covid_deaths_per_m
+        558
+      end
+
+      def us_pop
+        331.309290
+      end
+
+      def comparison_matrix(per_m)
+        {
+          vietnam:  comp_arr(0.3),
+          nigeria: comp_arr(5),
+          india: comp_arr(45),
+          new_zealand: comp_arr(4)
+        }
+      end
+
+      def comp_arr(rate)
+        potential = (rate*us_pop).to_i
+        delta_deaths = (us_pop*1000000).to_i - potential
+        [potential,delta_deaths]
       end
     end
 

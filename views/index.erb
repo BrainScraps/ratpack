@@ -2,20 +2,19 @@
   <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
       <div class="inner">
-        <h3 class="masthead-brand">Cover</h3>
-        <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link active" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Contact</a>
-        </nav>
+        <h3 class="masthead-brand">#coviddeaths</h3>
       </div>
     </header>
 
     <main role="main" class="inner cover">
-      <h1 class="cover-heading cityname-headline"> <%= "What if every single person in #{@city.name }, #{@city.state} died?" %> </h1>
+      <h1 class="cover-heading cityname-headline"> <%= "What if every single person in #{@city.name }, #{@city.state} was dead?" %> </h1>
       <br />
       <h3 class="cityname-headline">COVID19 has killed <%= separate_comma(@current_covid_deaths) %> people in the U.S. </h2>
       <h3 class="cityname-headline"> The population of <%= @city.name %> is <%= separate_comma(@city.population) %> </h2>
+
+      <% @matrix.map do |k,v| %>
+        <p> <%= k.capitalize %> </p>
+      <% end %>
     </main>
 
     <footer class="mastfoot mt-auto">
