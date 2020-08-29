@@ -15,17 +15,17 @@
       <br />
 
       <div class="container greytext">
-        <h4> If our leaders and citizens had acted responsibly, our death rate would not be <span class="bold-white"><%= current_covid_deaths_per_m %> per million. </span> </h4>
+        <h4> If our leaders and citizens had acted responsibly, our death rate would not be <br /> <span class="bold-white"><%= current_covid_deaths_per_m %> per million. </span> </h4>
         <h4> We could have had death rates like: </h4>
         <br />
         &nbsp;
         <br />
         <% @matrix.map do |k,v| %>
           <div class="row">
-            <div class="col">
+            <div class="col text-right">
               <p> <%= k.to_s.gsub('_', ' ').capitalize %> </p>
             </div>
-            <div class="col-9">
+            <div class="col-7 text-left">
               <p> <%= v[2] %> deaths per million.
                 <span class="bold-white"><%= separate_comma(v[1]) %> </span>
                 lives saved. </p>

@@ -196,3 +196,11 @@ span.bold-white {
   font-weight: bolder;
   color: white;
 }
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
