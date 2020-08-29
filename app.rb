@@ -39,11 +39,11 @@ module Name
       end
 
       def current_covid_deaths
-        183700
+        185912
       end
 
       def current_covid_deaths_per_m
-        558
+        561
       end
 
       def us_pop
@@ -54,15 +54,15 @@ module Name
         {
           vietnam:  comp_arr(0.3),
           nigeria: comp_arr(5),
-          india: comp_arr(45),
-          new_zealand: comp_arr(4)
+          new_zealand: comp_arr(4),
+          india: comp_arr(45)
         }
       end
 
       def comp_arr(rate)
         potential = (rate*us_pop).to_i
-        delta_deaths = (us_pop*1000000).to_i - potential
-        [potential,delta_deaths]
+        delta_deaths = current_covid_deaths.to_i - potential
+        [potential,delta_deaths,rate]
       end
     end
 

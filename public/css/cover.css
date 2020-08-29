@@ -186,3 +186,13 @@ body {
   color: white;
   text-shadow: 0.2rem 0.2rem 0.2rem black;
 }
+
+.greytext {
+  color: rgb(196, 195, 195);
+  text-shadow: 0.2rem 0.2rem 0.2rem black;
+}
+
+span.bold-white {
+  font-weight: bolder;
+  color: white;
+}
