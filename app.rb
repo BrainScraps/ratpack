@@ -39,11 +39,11 @@ module Name
       end
 
       def current_covid_deaths
-        186024
+        187232
       end
 
       def current_covid_deaths_per_m
-        561
+        565
       end
 
       def us_pop
@@ -55,7 +55,7 @@ module Name
           vietnam:  comp_arr(0.3),
           nigeria: comp_arr(5),
           new_zealand: comp_arr(4),
-          india: comp_arr(45)
+          india: comp_arr(47)
         }
       end
 
