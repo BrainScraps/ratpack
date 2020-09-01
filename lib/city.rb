@@ -8,7 +8,7 @@ class City
     # city = CITY_DATA[FIRST_RECORD]
     city_key = CITY_DATA.keys.select{|x| x < current_covid_deaths }.sample
     city = CITY_DATA[city_key]
-    @population = FIRST_RECORD
+    @population = city_key
     @name = city['name']
     @state = city['state']
   end
