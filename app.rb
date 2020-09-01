@@ -39,11 +39,11 @@ module Name
       end
 
       def current_covid_deaths
-        187232
+        187793
       end
 
       def current_covid_deaths_per_m
-        565
+        567
       end
 
       def us_pop
