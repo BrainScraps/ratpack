@@ -114,6 +114,13 @@ body {
   background: url('../img/sioux_falls_south_dakota.jpg') no-repeat scroll 0px 100% / cover transparent;
 }
 
+.knoxville-tennessee {
+  background: url('../img/knoxville_tennessee.jpg') no-repeat scroll 0px 100% / cover transparent;
+}
+
+.mobile-alabama {
+  background: url('../img/mobile_alabama.jpg') no-repeat scroll 0px 100% / cover transparent;
+}
 
 .cover-container {
   max-width: 66em;

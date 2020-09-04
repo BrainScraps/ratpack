@@ -39,11 +39,11 @@ module Name
       end
 
       def current_covid_deaths
-        188975
+        191114
       end
 
       def current_covid_deaths_per_m
-        570
+        577
       end
 
       def us_pop
@@ -52,10 +52,10 @@ module Name
 
       def comparison_matrix(per_m)
         {
-          vietnam:  comp_arr(0.3),
+          vietnam:  comp_arr(0.4),
           nigeria: comp_arr(5),
-          new_zealand: comp_arr(4),
-          india: comp_arr(48)
+          new_zealand: comp_arr(5),
+          india: comp_arr(50)
         }
       end
 
