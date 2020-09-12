@@ -47,79 +47,102 @@ body {
 }
 
 .salem-oregon {
-  background: url('../img/salem_oregon.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/salem_oregon.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .fort-collins-colorado {
-  background: url('../img/fort_collins_colorado.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/fort_collins_colorado.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .allentown-pennsylvania {
-  background: url('../img/allentown_pennsylvania.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/allentown_pennsylvania.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .bellevue-washington {
-  background: url('../img/bellevue_washington.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/bellevue_washington.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .bridgeport-connecticut {
-  background: url('../img/bridgeport_connecticut.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/bridgeport_connecticut.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .cary-north-carolina {
-  background: url('../img/cary_north_carolina.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/cary_north_carolina.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .green-bay-wisconsin {
-  background: url('../img/green_bay_wisconsin.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/green_bay_wisconsin.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .newport-news-virginia {
-  background: url('../img/newport_news_virginia.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/newport_news_virginia.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .oceanside-california {
-  background: url('../img/oceanside_california.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/oceanside_california.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .providence-rhode-island {
-  background: url('../img/providence_rhode_island.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/providence_rhode_island.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .kansas-city-kansas {
-  background: url('../img/kansas_city_kansas.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/kansas_city_kansas.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .macon-georgia {
-  background: url('../img/macon_georgia.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/macon_georgia.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .provo-utah {
-  background: url('../img/provo_utah.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/provo_utah.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .syracuse-new-york {
-  background: url('../img/syracuse_new_york.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/syracuse_new_york.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .chattanooga-tennessee {
-  background: url('../img/chattanooga_tennessee.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/chattanooga_tennessee.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .worcester-massachusetts {
-  background: url('../img/worcester_massachutsets.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/worcester_massachutsets.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .sioux-falls-south-dakota {
-  background: url('../img/sioux_falls_south_dakota.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/sioux_falls_south_dakota.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .knoxville-tennessee {
-  background: url('../img/knoxville_tennessee.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/knoxville_tennessee.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .mobile-alabama {
-  background: url('../img/mobile_alabama.jpg') no-repeat scroll 0px 100% / cover transparent;
+  background: url('../img/mobile_alabama.jpg') no-repeat scroll center 100% / cover transparent;
+}
+.akron-ohio {
+  background: url('../img/akron_ohio.jpg') no-repeat scroll center 100% / cover transparent;
+}
+
+.amarillo-texas {
+  background: url('../img/amarillo_texas.jpg') no-repeat scroll center 100% / cover transparent;
+}
+
+.little-rock {
+  background: url('../img/little_rock_arkansas.jpg') no-repeat scroll center 100% / cover transparent;
+}
+
+.montgomery-alabama {
+  background: url('../img/montgomery_alabama.jpg') no-repeat scroll center 100% / cover transparent;
+}
+
+.rochester-new-york {
+  background: url('../img/rochester_new_york.jpg') no-repeat scroll center 100% / cover transparent;
+}
+
+.salt-lake-city-utah {
+  background: url('../img/salt_lake_city_utah.jpg') no-repeat scroll center 100% / cover transparent;
 }
 
 .cover-container {
