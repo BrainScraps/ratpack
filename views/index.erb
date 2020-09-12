@@ -11,6 +11,15 @@
       <br />
       <h4 class="greytext">COVID19 has killed <span class="bold-white"> <%= separate_comma(@current_covid_deaths) %> </span> people in the U.S. </h4>
       <h4 class="greytext"> The population of <%= @city.name %> is <span class="bold-white"> <%= separate_comma(@city.population) %> </span> </h4>
+      <p class="greytext">
+        <% if @city.extra_barclays > 1 %>
+          So add in <%= @city.extra_barclays %> at-capacity Barclays Centers full of people, dead.
+        <% elsif @city.extra_barclays < 1 %>
+
+        <% else %>
+          So add in one at-capacity Barclays Center full of people, dead.
+        <% end %>
+      </p>
       <br />
       <br />
 
