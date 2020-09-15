@@ -43,7 +43,7 @@ module Name
       end
 
       def current_covid_deaths_per_m
-        596
+        600
       end
 
       def us_pop
