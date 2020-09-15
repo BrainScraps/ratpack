@@ -55,7 +55,7 @@ module Name
           vietnam:  comp_arr(0.4),
           nigeria: comp_arr(5),
           new_zealand: comp_arr(5),
-          india: comp_arr(56)
+          india: comp_arr(58)
         }
       end
 
