@@ -39,7 +39,7 @@ module Name
       end
 
       def current_covid_deaths
-        197498
+        199000
       end
 
       def current_covid_deaths_per_m
